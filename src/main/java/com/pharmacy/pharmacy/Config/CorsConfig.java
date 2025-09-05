@@ -17,7 +17,9 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://localhost:5173", // Vite default
                                 "http://localhost:5175",
+                                "https://panchkarmahospital.netlify.app",
                                 "http://localhost:5174"
+
                                 // your current frontend port
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
